@@ -136,5 +136,9 @@ img {
 }
 
 @media screen and (max-width:480px) {
-    
+
+    .row {
+        display: block;
+    }
+        
 }
