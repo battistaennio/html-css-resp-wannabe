@@ -137,17 +137,40 @@ img {
 
 @media screen and (max-width:480px) {
 
+    /* regole generali */
     .row {
         display: block;
     }
 
-    .lessons .col {
-        width: 100%;
-        margin-bottom: 80px;
-    }        
-    
     p{
         font-size: 20px;
     }
-        
+
+    /* regole section lessons */
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 60px;
+    }        
+    
+    /*regole section steps */
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps {
+        padding: 0;
+    }
+
+    .steps h2{
+        padding-top: 3rem;
+    }
+
+    .steps .col .card p {
+        padding-bottom: 3rem;
+    }
+
+
+
+    
+    
 }
