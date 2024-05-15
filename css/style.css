@@ -191,12 +191,11 @@ img {
 
     .col-right ul{
         margin-top: 6rem;
-        padding-bottom: 5rem;
+        padding: 0 1.5rem 5rem 1.5rem;
     }
 
     .why-us li {
         margin-bottom: 0;
-        padding-right: 3rem;
     }    
     
     .why-us h3{
