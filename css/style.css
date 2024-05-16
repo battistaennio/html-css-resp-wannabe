@@ -127,7 +127,9 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width:768px) {
+
+ /* responsive tablet */
+ @media screen and (max-width:768px) {
 
     .container {
         width: 100%;
@@ -135,6 +137,7 @@ img {
     
 }
 
+/* responsive mobile */
 @media screen and (max-width:480px) {
 
     /* regole generali */
@@ -146,17 +149,17 @@ img {
         font-size: 19px;
     }
 
+    .steps .col, .why-us .col-left, .why-us .col-right, .lessons .col {
+        width: 100%;
+    }
+
+
     /* regole section lessons */
     .lessons .col {
-        width: 100%;
         margin-bottom: 60px;
     }        
     
     /*regole section steps */
-    .steps .col {
-        width: 100%;
-    }
-
     .steps {
         padding: 0;
         margin: 0;
@@ -179,14 +182,6 @@ img {
     .why-us h2{
         font-size: 3rem;
         padding-top: 3rem;
-    }
-
-    .why-us .col-left {
-        width: 100%;
-    }
-
-    .why-us .col-right {
-        width: 100%;
     }
 
     .col-right ul{

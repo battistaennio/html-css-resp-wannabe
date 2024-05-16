@@ -128,6 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ /* responsive tablet */
  @media screen and (max-width:768px) {
 
     .container {
@@ -136,6 +137,35 @@ img {
     
 }
 
+ /* responsive intermedio tablet-mobile */
+@media screen and (max-width:620px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    .lessons .col img, .steps .col img {
+        height: 150px;
+    }
+    
+    .why-us .col-left, .why-us .col-right {
+        width: 50%;
+    }
+
+}
+
+/* responsive mobile */
 @media screen and (max-width:480px) {
 
     /* regole generali */
@@ -149,12 +179,11 @@ img {
 
     /* regole section lessons */
     .lessons .col {
-        width: 100%;
         margin-bottom: 60px;
     }        
     
     /*regole section steps */
-    .steps .col {
+    .steps .col, .lessons .col {
         width: 100%;
     }
 
@@ -182,11 +211,7 @@ img {
         padding-top: 3rem;
     }
 
-    .why-us .col-left {
-        width: 100%;
-    }
-
-    .why-us .col-right {
+    .why-us .col-left, .why-us .col-right {
         width: 100%;
     }
 
@@ -206,13 +231,15 @@ img {
  
 }
 
+
+/* responsive desktop */
 @media screen and (max-width:1920px) {
     .container{
         width: 100%;
     }
 }
 
-
+/* responsive desktop largo */
 @media screen and (min-width:1921px) {
     .container{
         width: 100%;
@@ -234,46 +261,8 @@ img {
         font-size: 25px;
     }
 
-    .lessons .col img {
-        height: 300px;
-    }
-
-    .steps .col img {
+    .lessons .col img, .steps .col img {
         height: 300px;
     }
 }
 
-@media screen and (max-width:620px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-    
-    h2 {
-        font-size: 2em;
-    }
-    
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    p{
-        font-size: 18px;
-    }
-
-    .lessons .col img {
-        height: 150px;
-    }
-
-    .steps .col img {
-        height: 150px;
-    }
-    
-    .why-us .col-left {
-        width: 50%;
-    }
-
-    .why-us .col-right {
-        width: 50%;
-    }
-
-}
